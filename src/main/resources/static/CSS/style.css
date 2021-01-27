@@ -1,0 +1,18 @@
+/*BODY*/
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+/*FOOTER*/
+.footer {
+    position: static;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(87, 87, 87);
+}
