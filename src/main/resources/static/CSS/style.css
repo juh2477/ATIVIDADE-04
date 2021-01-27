@@ -1,18 +1,31 @@
-/*BODY*/
-body{
-    margin: 0%;
-    padding: 0%;
+/*CORPO*/
+.container-principal{
+    height: 700px;
+}
+
+/*CONTATO*/
+.div-contato{
+    background-color: #cacaca;
+}
+.lbl-titulo{
+    width: 100%;
+    color: #5f5f5f;
+}
+
+.lbl-dado{
+    width: 100%;
+    color: #7c7c7c;
 }
 
 /*FOOTER*/
 .footer {
     position: static;
-    margin-top: 50px;
-    margin-bottom: 10px;
+    padding-top: 10px;
+    height: 40px;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
-    background-color: rgb(255, 255, 255);
-    color: rgb(87, 87, 87);
+    background-color: #424242;
+    color: #cacaca;
 }
