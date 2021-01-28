@@ -3,6 +3,36 @@
     height: 700px;
 }
 
+/*FUNCIONARIOS*/
+.container-funcionarios{
+    min-height: 700px;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    padding: 10px;
+    border: 1px solid #424242;
+    border-radius: 5px;
+}
+.form-titulo{
+    color: #424242;
+    font: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-style: bold;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+hr {
+    margin: 40px 0;
+  }
+.hr4 {
+    border: 0;
+    border-top: 1px dashed rgb(105, 105, 105);
+    border-bottom: 2px solid rgb(105, 105, 105);
+    height: 3px;
+}
+
 /*CONTATO*/
 .div-contato{
     background-color: #cacaca;
@@ -29,3 +59,5 @@
     background-color: #424242;
     color: #cacaca;
 }
+
+
