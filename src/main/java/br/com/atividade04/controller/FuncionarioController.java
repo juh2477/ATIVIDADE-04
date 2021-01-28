@@ -16,6 +16,8 @@ public class FuncionarioController {
 	
 	public String listFuncionarios(Model model) {
 		
+		model.addAttribute("funcionarios", funcionarioRepository.findAll());
+		
 		return "/funcionario/list";
 	}
 
