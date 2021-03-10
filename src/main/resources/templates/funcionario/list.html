@@ -41,20 +41,32 @@
         <div class="form-titulo">
             Funcionários
         </div>
-        <hr class="hr4">
+        <hr class="hr1">
+
+        <div class="form-novo">
+            <a th:href="@{/funcionario/add}" class="link-novo"> 
+                <button class="btn-add" data-toggle="tooltip" data-placement="right" title="Adicionar"><i class=" fas fa-plus"></i></button>
+            </a>
+        </div>
+
         <div class="form-tabela">
             <table class="table">
                 <thead class="thead-dark">
                     <tr>
                         <th>Cód.</th>     
                         <th>Nome</th>     
-                        <th>Cargo</th>     
+                        <th colspan="4">Cargo</th>     
                     </tr>
                 </thead>
                 <tbody>
-                    <td>sdsa</td>
-                    <td>dsd</td>
-                    <td>dsads</td>
+                    <tr th:each="funcionario : ${funcionarios}">
+                        <td th:text="${funcionario.id}"></td>
+                        <td th:text="${funcionario.nome}"></td>
+                        <td th:text="${funcionario.cargo}"></td>
+                        <td><i class="fas fa-eye" aria-hidden="true"></i></td>
+                        <td><i class="fas fa-edit" aria-hidden="true"></i></td>
+                        <td><i class="fas fa-trash" aria-hidden="true"></i></td>
+                    </tr>
                 </tbody>
             </table>
         </div>

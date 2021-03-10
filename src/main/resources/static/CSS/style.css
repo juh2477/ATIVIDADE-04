@@ -26,11 +26,26 @@
 hr {
     margin: 40px 0;
   }
-.hr4 {
+.hr1 {
     border: 0;
-    border-top: 1px dashed rgb(105, 105, 105);
-    border-bottom: 2px solid rgb(105, 105, 105);
-    height: 3px;
+    border-top: 1px solid #CCC;
+}
+
+/*Add novo funcionario*/
+.btn-add{
+    margin-bottom: 10px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    border: none;
+    background-color: #a6c2bb;
+    text-align: center;
+    
+}
+
+.btn-add:hover{
+    background-color: #17a17f;
 }
 
 /*CONTATO*/
@@ -59,5 +74,6 @@ hr {
     background-color: #424242;
     color: #cacaca;
 }
+
 
 
